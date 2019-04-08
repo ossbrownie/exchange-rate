@@ -1,0 +1,34 @@
+{
+    "name": "ossbrownie/exchange-rate",
+    "description": "Allows you to receive current exchange rates from various sources and convert them.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["brownie", "exchange-rate", "exchange-rates", "exchange rate", "exchange rates", "currency"],
+    "homepage": "https://github.com/ossbrownie/exchange-rate",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "brownie",
+            "email": "oss.brownie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-libxml": "*",
+        "ossbrownie/http-client": "0.0.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.5.14",
+        "phpspec/prophecy": "1.8.0",
+        "phpdocumentor/reflection-docblock": "4.3.0",
+        "php-coveralls/php-coveralls": "2.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brownie\\ExchangeRate\\": "src/Brownie/ExchangeRate/",
+            "Test\\Brownie\\ExchangeRate\\": "tests/Brownie/ExchangeRate/"
+        }
+    }
+}
