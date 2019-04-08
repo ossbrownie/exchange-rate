@@ -53,8 +53,22 @@ class CurrencyIsoOrg extends Service implements CurrencyInterface
             throw new InvalidExchangeRateException('Invalid response from currency exchange server.');
         }
 
+        return $this->buildCurrencies($response->getBody());
+    }
+
+    /**
+     * Collects currency collection from server response.
+     *
+     * @param string    $body   Response body content.
+     *
+     * @return Currency[]
+     *
+     * @throws InvalidExchangeRateException
+     */
+    private function buildCurrencies($body)
+    {
         libxml_use_internal_errors(true);
-        $xml = simplexml_load_string($response->getBody());
+        $xml = simplexml_load_string($body);
 
         if (false === $xml) {
             throw new InvalidExchangeRateException('Error parsing the response from the currency exchange server.');
