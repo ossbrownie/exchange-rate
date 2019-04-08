@@ -7,7 +7,7 @@
 
 namespace Brownie\ExchangeRate;
 
-use Brownie\ExchangeRate\Model\ExchangeRate;
+use Brownie\ExchangeRate\Model\ExchangeRate as ExchangeRateCollection;
 
 interface SourceInterface
 {
@@ -15,7 +15,7 @@ interface SourceInterface
     /**
      * Returns the current exchange rate.
      *
-     * @return ExchangeRate[]
+     * @return ExchangeRateCollection[]
      */
     public function getExchangeRates();
 }
