@@ -24,11 +24,11 @@ Allows you to receive current exchange rates from various sources and convert th
 
 For more information about the extensions see:
 
-**curl** [https://www.php.net/curl](https://www.php.net/curl)
+**curl** - [https://www.php.net/curl](https://www.php.net/curl)
 
-**libxml** [https://www.php.net/libxml](https://www.php.net/libxml)
+**libxml** - [https://www.php.net/libxml](https://www.php.net/libxml)
 
-**simplexml** [https://www.php.net/simplexml](https://www.php.net/simplexml)
+**simplexml** - [https://www.php.net/simplexml](https://www.php.net/simplexml)
 
 
 ## Installation
