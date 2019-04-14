@@ -5,7 +5,7 @@
     "type": "library",
     "keywords": ["brownie", "exchange-rate", "exchange-rates", "exchange rate", "exchange rates", "currency"],
     "homepage": "https://github.com/ossbrownie/exchange-rate",
-    "version": "dev-master",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "brownie",

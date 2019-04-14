@@ -36,7 +36,7 @@ Add a line to your "require" section in your composer configuration:
 ```json
 {
     "require": {
-        "ossbrownie/exchange-rate": "dev-master"
+        "ossbrownie/exchange-rate": "0.0.1"
     }
 }
 ```
